@@ -514,7 +514,7 @@ Contact
 	max-width: 28rem;
 }
 .form-control {
-	flex: 1 1 auto;
+	/* flex: 1 1 auto; */
 	color: var(--clr-grey-5);
 }
 .form-control,
