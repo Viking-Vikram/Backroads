@@ -511,10 +511,12 @@ Contact
 }
 .contact-form {
 	display: flex;
+	flex-wrap: wrap;
+	/* background-color: black; */
 	max-width: 28rem;
 }
 .form-control {
-	/* flex: 1 1 auto; */
+	flex: 1 1 auto;
 	color: var(--clr-grey-5);
 }
 .form-control,
@@ -533,7 +535,7 @@ Contact
 }
 .btn-submit {
 	font-family: var(--ff-primary);
-	margin-left: 0.5rem;
+	/* margin-left: 0.5rem; */
 	background-color: var(--clr-primary-8);
 	color: var(--clr-primary-1);
 	transition: var(--transition);
